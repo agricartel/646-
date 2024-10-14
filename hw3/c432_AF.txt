@@ -1,0 +1,935 @@
+sa1    N1
+sa1    N4
+sa1    N8
+sa1    N11
+sa1    N14
+sa1    N17
+sa1    N21
+sa1    N24
+sa1    N27
+sa1    N30
+sa1    N34
+sa1    N37
+sa1    N40
+sa1    N43
+sa1    N47
+sa1    N50
+sa1    N53
+sa1    N56
+sa1    N60
+sa1    N63
+sa1    N66
+sa1    N69
+sa1    N73
+sa1    N76
+sa1    N79
+sa1    N82
+sa1    N86
+sa1    N89
+sa1    N92
+sa1    N95
+sa1    N99
+sa1    N102
+sa1    N105
+sa1    N108
+sa1    N112
+sa1    N115
+sa1    N118
+sa1    N119
+sa1    N122
+sa1    N123
+sa1    N126
+sa1    N127
+sa1    N130
+sa1    N131
+sa1    N134
+sa1    N135
+sa1    N138
+sa1    N139
+sa1    N142
+sa1    N143
+sa1    N146
+sa1    N147
+sa1    N150
+sa1    N151
+sa1    N154
+sa1    N157
+sa1    N158
+sa1    N159
+sa1    N162
+sa1    N165
+sa1    N168
+sa1    N171
+sa1    N174
+sa1    N177
+sa1    N180
+sa1    N183
+sa1    N184
+sa1    N185
+sa1    N186
+sa1    N187
+sa1    N188
+sa1    N189
+sa1    N190
+sa1    N191
+sa1    N192
+sa1    N193
+sa1    N194
+sa1    N195
+sa1    N196
+sa1    N197
+sa1    N198
+sa1    N199
+sa1    N203
+sa1    N213
+sa1    N224
+sa1    N227
+sa1    N230
+sa1    N233
+sa1    N236
+sa1    N239
+sa1    N242
+sa1    N243
+sa1    N246
+sa1    N247
+sa1    N250
+sa1    N251
+sa1    N254
+sa1    N255
+sa1    N256
+sa1    N257
+sa1    N258
+sa1    N259
+sa1    N260
+sa1    N264
+sa1    N267
+sa1    N270
+sa1    N273
+sa1    N276
+sa1    N279
+sa1    N282
+sa1    N285
+sa1    N296
+sa1    N300
+sa1    N301
+sa1    N302
+sa1    N303
+sa1    N304
+sa1    N305
+sa1    N306
+sa1    N307
+sa1    N308
+sa1    N309
+sa1    N319
+sa1    N330
+sa1    N331
+sa1    N332
+sa1    N333
+sa1    N334
+sa1    N335
+sa1    N336
+sa1    N337
+sa1    N338
+sa1    N339
+sa1    N340
+sa1    N341
+sa1    N342
+sa1    N343
+sa1    N344
+sa1    N345
+sa1    N346
+sa1    N347
+sa1    N348
+sa1    N349
+sa1    N350
+sa1    N351
+sa1    N352
+sa1    N353
+sa1    N354
+sa1    N355
+sa1    N356
+sa1    N357
+sa1    N360
+sa1    N371
+sa1    N372
+sa1    N373
+sa1    N374
+sa1    N375
+sa1    N376
+sa1    N377
+sa1    N378
+sa1    N379
+sa1    N381
+sa1    N386
+sa1    N393
+sa1    N399
+sa1    N404
+sa1    N407
+sa1    N411
+sa1    N414
+sa1    N417
+sa1    N418
+sa1    N419
+sa1    N420
+sa1    N422
+sa1    N425
+sa1    N428
+sa1    N429
+sa1    N223
+sa1    N329
+sa1    N370
+sa1    N421
+sa1    N430
+sa1    N431
+sa1    N432
+sa1    ttmp1
+sa1    ttmp2
+sa1    ttmp3
+sa1    ttmp4
+sa1    ttmp5
+sa1    ttmp6
+sa1    ttmp7
+sa1    ttmp9
+sa1    ttmp10
+sa1    ttmp11
+sa1    ttmp12
+sa1    ttmp13
+sa1    ttmp14
+sa1    ttmp15
+sa1    ttmp17
+sa1    ttmp18
+sa1    ttmp19
+sa1    ttmp20
+sa1    ttmp21
+sa1    ttmp22
+sa1    ttmp23
+sa1    ttmp25
+sa1    ttmp26
+sa1    ttmp28
+sa1    ttmp29
+sa1    ttmp31
+sa1    ttmp32
+sa1    ttmp34
+sa1    ttmp35
+sa1    ttmp37
+sa1    ttmp38
+sa1    ttmp40
+sa1    ttmp41
+sa1    ttmp43
+sa1    ttmp44
+sa1    ttmp46
+sa1    ttmp47
+sa1    ttmp49
+sa1    ttmp50
+sa1    ttmp52
+sa1    ttmp53
+sa1    ttmp54
+sa1    ttmp55
+sa1    ttmp56
+sa1    ttmp57
+sa1    ttmp59
+sa1    ttmp60
+sa1    ttmp62
+sa1    ttmp64
+sa1    ttmp65
+sa1    ttmp67
+sa1    ttmp68
+sa1    ttmp70
+sa1    ttmp71
+sa1    ttmp73
+sa1    ttmp74
+sa1    N1_2
+sa1    N4_2
+sa1    N4_3
+sa1    N8_2
+sa1    N11_2
+sa1    N14_2
+sa1    N17_2
+sa1    N17_3
+sa1    N21_2
+sa1    N24_2
+sa1    N27_2
+sa1    N30_2
+sa1    N30_3
+sa1    N34_2
+sa1    N37_2
+sa1    N40_2
+sa1    N43_2
+sa1    N43_3
+sa1    N47_2
+sa1    N50_2
+sa1    N53_2
+sa1    N56_2
+sa1    N56_3
+sa1    N60_2
+sa1    N63_2
+sa1    N66_2
+sa1    N69_2
+sa1    N69_3
+sa1    N73_2
+sa1    N76_2
+sa1    N79_2
+sa1    N82_2
+sa1    N82_3
+sa1    N86_2
+sa1    N89_2
+sa1    N92_2
+sa1    N95_2
+sa1    N95_3
+sa1    N99_2
+sa1    N102_2
+sa1    N105_2
+sa1    N108_2
+sa1    N108_3
+sa1    N112_2
+sa1    N115_2
+sa1    N154_1
+sa1    N154_2
+sa1    N159_1
+sa1    N159_2
+sa1    N162_1
+sa1    N162_2
+sa1    N165_1
+sa1    N165_2
+sa1    N168_1
+sa1    N168_2
+sa1    N171_1
+sa1    N171_2
+sa1    N174_1
+sa1    N174_2
+sa1    N177_1
+sa1    N177_2
+sa1    N180_1
+sa1    N180_2
+sa1    N203_1
+sa1    N203_2
+sa1    N203_3
+sa1    N203_4
+sa1    N203_5
+sa1    N203_6
+sa1    N203_7
+sa1    N203_8
+sa1    N203_9
+sa1    N213_1
+sa1    N213_2
+sa1    N213_3
+sa1    N213_4
+sa1    N213_5
+sa1    N213_6
+sa1    N213_7
+sa1    N213_8
+sa1    N213_9
+sa1    N224_1
+sa1    N224_2
+sa1    N227_1
+sa1    N227_2
+sa1    N230_1
+sa1    N230_2
+sa1    N233_1
+sa1    N233_2
+sa1    N236_1
+sa1    N236_2
+sa1    N239_1
+sa1    N239_2
+sa1    N243_1
+sa1    N243_2
+sa1    N247_1
+sa1    N247_2
+sa1    N251_1
+sa1    N251_2
+sa1    N260_1
+sa1    N260_2
+sa1    N264_1
+sa1    N264_2
+sa1    N267_1
+sa1    N267_2
+sa1    N270_1
+sa1    N270_2
+sa1    N273_1
+sa1    N273_2
+sa1    N276_1
+sa1    N276_2
+sa1    N279_1
+sa1    N279_2
+sa1    N282_1
+sa1    N282_2
+sa1    N285_1
+sa1    N285_2
+sa1    N309_1
+sa1    N309_2
+sa1    N309_3
+sa1    N309_4
+sa1    N309_5
+sa1    N309_6
+sa1    N309_7
+sa1    N309_8
+sa1    N309_9
+sa1    N319_1
+sa1    N319_2
+sa1    N319_3
+sa1    N319_4
+sa1    N319_5
+sa1    N319_6
+sa1    N319_7
+sa1    N319_8
+sa1    N319_9
+sa1    N360_1
+sa1    N360_2
+sa1    N360_3
+sa1    N360_4
+sa1    N360_5
+sa1    N360_6
+sa1    N360_7
+sa1    N360_8
+sa1    N360_9
+sa1    N381_1
+sa1    N381_2
+sa1    N381_3
+sa1    N381_4
+sa1    N386_1
+sa1    N386_2
+sa1    N386_3
+sa1    N386_4
+sa1    N386_5
+sa1    N386_6
+sa1    N393_1
+sa1    N393_3
+sa1    N393_4
+sa1    N393_5
+sa1    N399_1
+sa1    N399_2
+sa1    N399_3
+sa1    N399_4
+sa1    N404_1
+sa1    N407_1
+sa1    N407_3
+sa1    N411_1
+sa1    N422_1
+sa1    N422_2
+sa1    N425_1
+sa1    N425_2
+sa1    ttmp1_1
+sa1    ttmp2_1
+sa1    ttmp3_1
+sa1    ttmp4_1
+sa1    ttmp5_1
+sa1    ttmp6_1
+sa1    ttmp7_1
+sa1    ttmp9_1
+sa1    ttmp10_1
+sa1    ttmp11_1
+sa1    ttmp12_1
+sa1    ttmp13_1
+sa1    ttmp14_1
+sa1    ttmp15_1
+sa1    ttmp17_1
+sa1    ttmp18_1
+sa1    ttmp19_1
+sa1    ttmp20_1
+sa1    ttmp21_1
+sa1    ttmp22_1
+sa1    ttmp23_1
+sa1    ttmp25_1
+sa1    ttmp26_1
+sa1    ttmp28_1
+sa1    ttmp29_1
+sa1    ttmp31_1
+sa1    ttmp32_1
+sa1    ttmp34_1
+sa1    ttmp35_1
+sa1    ttmp37_1
+sa1    ttmp38_1
+sa1    ttmp40_1
+sa1    ttmp41_1
+sa1    ttmp43_1
+sa1    ttmp44_1
+sa1    ttmp46_1
+sa1    ttmp47_1
+sa1    ttmp49_1
+sa1    ttmp50_1
+sa1    ttmp52_1
+sa1    ttmp53_1
+sa1    ttmp54_1
+sa1    ttmp55_1
+sa1    ttmp56_1
+sa1    ttmp57_1
+sa1    ttmp59_1
+sa1    ttmp60_1
+sa1    ttmp62_1
+sa1    ttmp64_1
+sa1    ttmp65_1
+sa1    ttmp67_1
+sa1    ttmp68_1
+sa1    ttmp70_1
+sa1    ttmp71_1
+sa1    ttmp73_1
+sa1    ttmp74_1
+sa0    N1
+sa0    N4
+sa0    N8
+sa0    N11
+sa0    N14
+sa0    N17
+sa0    N21
+sa0    N24
+sa0    N27
+sa0    N30
+sa0    N34
+sa0    N37
+sa0    N40
+sa0    N43
+sa0    N47
+sa0    N50
+sa0    N53
+sa0    N56
+sa0    N60
+sa0    N63
+sa0    N66
+sa0    N69
+sa0    N73
+sa0    N76
+sa0    N79
+sa0    N82
+sa0    N86
+sa0    N89
+sa0    N92
+sa0    N95
+sa0    N99
+sa0    N102
+sa0    N105
+sa0    N108
+sa0    N112
+sa0    N115
+sa0    N119
+sa0    N123
+sa0    N127
+sa0    N131
+sa0    N135
+sa0    N139
+sa0    N143
+sa0    N147
+sa0    N151
+sa0    N154
+sa0    N159
+sa0    N162
+sa0    N165
+sa0    N168
+sa0    N171
+sa0    N174
+sa0    N177
+sa0    N180
+sa0    N199
+sa0    N203
+sa0    N213
+sa0    N224
+sa0    N227
+sa0    N230
+sa0    N233
+sa0    N236
+sa0    N239
+sa0    N243
+sa0    N247
+sa0    N251
+sa0    N260
+sa0    N264
+sa0    N267
+sa0    N270
+sa0    N273
+sa0    N276
+sa0    N279
+sa0    N282
+sa0    N285
+sa0    N296
+sa0    N309
+sa0    N319
+sa0    N357
+sa0    N360
+sa0    N381
+sa0    N386
+sa0    N393
+sa0    N399
+sa0    N404
+sa0    N407
+sa0    N411
+sa0    N415
+sa0    N416
+sa0    N422
+sa0    N425
+sa0    N223
+sa0    N329
+sa0    N370
+sa0    N421
+sa0    N430
+sa0    N431
+sa0    N432
+sa0    ttmp1
+sa0    ttmp2
+sa0    ttmp3
+sa0    ttmp4
+sa0    ttmp5
+sa0    ttmp6
+sa0    ttmp7
+sa0    ttmp9
+sa0    ttmp10
+sa0    ttmp11
+sa0    ttmp12
+sa0    ttmp13
+sa0    ttmp14
+sa0    ttmp15
+sa0    ttmp17
+sa0    ttmp18
+sa0    ttmp19
+sa0    ttmp20
+sa0    ttmp21
+sa0    ttmp22
+sa0    ttmp23
+sa0    ttmp25
+sa0    ttmp26
+sa0    ttmp28
+sa0    ttmp29
+sa0    ttmp31
+sa0    ttmp32
+sa0    ttmp34
+sa0    ttmp35
+sa0    ttmp37
+sa0    ttmp38
+sa0    ttmp40
+sa0    ttmp41
+sa0    ttmp43
+sa0    ttmp44
+sa0    ttmp46
+sa0    ttmp47
+sa0    ttmp49
+sa0    ttmp50
+sa0    ttmp52
+sa0    ttmp53
+sa0    ttmp54
+sa0    ttmp55
+sa0    ttmp56
+sa0    ttmp57
+sa0    ttmp59
+sa0    ttmp60
+sa0    ttmp62
+sa0    ttmp64
+sa0    ttmp65
+sa0    ttmp67
+sa0    ttmp68
+sa0    ttmp70
+sa0    ttmp71
+sa0    ttmp73
+sa0    ttmp74
+sa0    N8_1
+sa0    N14_1
+sa0    N21_1
+sa0    N27_1
+sa0    N34_1
+sa0    N40_1
+sa0    N47_1
+sa0    N53_1
+sa0    N60_1
+sa0    N66_1
+sa0    N73_1
+sa0    N79_1
+sa0    N86_1
+sa0    N92_1
+sa0    N99_1
+sa0    N105_1
+sa0    N112_1
+sa0    N115_1
+sa0    N119_1
+sa0    N119_2
+sa0    N123_1
+sa0    N123_2
+sa0    N127_1
+sa0    N127_2
+sa0    N131_1
+sa0    N131_2
+sa0    N135_1
+sa0    N135_2
+sa0    N139_1
+sa0    N139_2
+sa0    N143_1
+sa0    N143_2
+sa0    N147_1
+sa0    N147_2
+sa0    N151_1
+sa0    N151_2
+sa0    N154_2
+sa0    N159_2
+sa0    N162_2
+sa0    N165_2
+sa0    N168_2
+sa0    N171_2
+sa0    N174_2
+sa0    N177_2
+sa0    N180_2
+sa0    N203_1
+sa0    N203_2
+sa0    N203_3
+sa0    N203_4
+sa0    N203_5
+sa0    N203_6
+sa0    N203_7
+sa0    N203_8
+sa0    N203_9
+sa0    N260_2
+sa0    N264_2
+sa0    N267_2
+sa0    N270_2
+sa0    N273_2
+sa0    N276_2
+sa0    N279_2
+sa0    N282_2
+sa0    N285_2
+sa0    N309_1
+sa0    N309_2
+sa0    N309_3
+sa0    N309_4
+sa0    N309_5
+sa0    N309_6
+sa0    N309_7
+sa0    N309_8
+sa0    N309_9
+
+Total Faults_AF=692
+Collapse_ratio=0.5766666666666667
+
+Equivalent Classes:
+sa1 N1_1, sa0 N1_1, sa0 N118
+sa1 N1_1, sa0 N1_1, sa1 N118
+sa1 N4_1, sa0 N4_1, sa0 N119
+sa1 N4_1, sa0 N4_1, sa1 N119
+sa1 N11_1, sa0 N11_1, sa0 N122
+sa1 N11_1, sa0 N11_1, sa1 N122
+sa1 N17_1, sa0 N17_1, sa0 N123
+sa1 N17_1, sa0 N17_1, sa1 N123
+sa1 N24_1, sa0 N24_1, sa0 N126
+sa1 N24_1, sa0 N24_1, sa1 N126
+sa1 N30_1, sa0 N30_1, sa0 N127
+sa1 N30_1, sa0 N30_1, sa1 N127
+sa1 N37_1, sa0 N37_1, sa0 N130
+sa1 N37_1, sa0 N37_1, sa1 N130
+sa1 N43_1, sa0 N43_1, sa0 N131
+sa1 N43_1, sa0 N43_1, sa1 N131
+sa1 N50_1, sa0 N50_1, sa0 N134
+sa1 N50_1, sa0 N50_1, sa1 N134
+sa1 N56_1, sa0 N56_1, sa0 N135
+sa1 N56_1, sa0 N56_1, sa1 N135
+sa1 N63_1, sa0 N63_1, sa0 N138
+sa1 N63_1, sa0 N63_1, sa1 N138
+sa1 N69_1, sa0 N69_1, sa0 N139
+sa1 N69_1, sa0 N69_1, sa1 N139
+sa1 N76_1, sa0 N76_1, sa0 N142
+sa1 N76_1, sa0 N76_1, sa1 N142
+sa1 N82_1, sa0 N82_1, sa0 N143
+sa1 N82_1, sa0 N82_1, sa1 N143
+sa1 N89_1, sa0 N89_1, sa0 N146
+sa1 N89_1, sa0 N89_1, sa1 N146
+sa1 N95_1, sa0 N95_1, sa0 N147
+sa1 N95_1, sa0 N95_1, sa1 N147
+sa1 N102_1, sa0 N102_1, sa0 N150
+sa1 N102_1, sa0 N102_1, sa1 N150
+sa1 N108_1, sa0 N108_1, sa0 N151
+sa1 N108_1, sa0 N108_1, sa1 N151
+sa0 N118, sa0 N4_2, sa1 N154
+sa1 N8_1, sa1 N119_1, sa0 N157
+sa1 N14_1, sa1 N119_2, sa0 N158
+sa0 N122, sa0 N17_2, sa1 N159
+sa0 N126, sa0 N30_2, sa1 N162
+sa0 N130, sa0 N43_2, sa1 N165
+sa0 N134, sa0 N56_2, sa1 N168
+sa0 N138, sa0 N69_2, sa1 N171
+sa0 N142, sa0 N82_2, sa1 N174
+sa0 N146, sa0 N95_2, sa1 N177
+sa0 N150, sa0 N108_2, sa1 N180
+sa1 N21_1, sa1 N123_1, sa0 N183
+sa1 N27_1, sa1 N123_2, sa0 N184
+sa1 N34_1, sa1 N127_1, sa0 N185
+sa1 N40_1, sa1 N127_2, sa0 N186
+sa1 N47_1, sa1 N131_1, sa0 N187
+sa1 N53_1, sa1 N131_2, sa0 N188
+sa1 N60_1, sa1 N135_1, sa0 N189
+sa1 N66_1, sa1 N135_2, sa0 N190
+sa1 N73_1, sa1 N139_1, sa0 N191
+sa1 N79_1, sa1 N139_2, sa0 N192
+sa1 N86_1, sa1 N143_1, sa0 N193
+sa1 N92_1, sa1 N143_2, sa0 N194
+sa1 N99_1, sa1 N147_1, sa0 N195
+sa1 N105_1, sa1 N147_2, sa0 N196
+sa1 N112_1, sa1 N151_1, sa0 N197
+sa1 N115_1, sa1 N151_2, sa0 N198
+sa0 N177_1, sa0 N180_1, sa0 ttmp1
+sa0 N154_1, sa0 ttmp1_1, sa0 ttmp2
+sa0 N159_1, sa0 ttmp2_1, sa0 ttmp3
+sa0 N162_1, sa0 ttmp3_1, sa0 ttmp4
+sa0 N165_1, sa0 ttmp4_1, sa0 ttmp5
+sa0 N168_1, sa0 ttmp5_1, sa0 ttmp6
+sa0 N171_1, sa0 ttmp6_1, sa0 ttmp7
+sa0 N174_1, sa0 ttmp7_1, sa0 N199
+sa1 N199_1, sa0 N199_1, sa0 N203
+sa1 N199_1, sa0 N199_1, sa1 N203
+sa1 N199_2, sa0 N199_2, sa0 N213
+sa1 N199_2, sa0 N199_2, sa1 N213
+sa1 N199_3, sa0 N199_3, sa0 N223
+sa1 N199_3, sa0 N199_3, sa1 N223
+sa0 N1_2, sa0 N213_1, sa1 N242
+sa0 N213_2, sa0 N11_2, sa1 N246
+sa0 N213_3, sa0 N24_2, sa1 N250
+sa0 N213_4, sa0 N37_2, sa1 N254
+sa0 N213_5, sa0 N50_2, sa1 N255
+sa0 N213_6, sa0 N63_2, sa1 N256
+sa0 N213_7, sa0 N76_2, sa1 N257
+sa0 N213_8, sa0 N89_2, sa1 N258
+sa0 N213_9, sa0 N102_2, sa1 N259
+sa0 N224_1, sa0 N157, sa1 N260
+sa0 N224_2, sa0 N158, sa1 N263
+sa0 N227_1, sa0 N183, sa1 N264
+sa0 N230_1, sa0 N185, sa1 N267
+sa0 N233_1, sa0 N187, sa1 N270
+sa0 N236_1, sa0 N189, sa1 N273
+sa0 N239_1, sa0 N191, sa1 N276
+sa0 N243_1, sa0 N193, sa1 N279
+sa0 N247_1, sa0 N195, sa1 N282
+sa0 N251_1, sa0 N197, sa1 N285
+sa0 N227_2, sa0 N184, sa1 N288
+sa0 N230_2, sa0 N186, sa1 N289
+sa0 N233_2, sa0 N188, sa1 N290
+sa0 N236_2, sa0 N190, sa1 N291
+sa0 N239_2, sa0 N192, sa1 N292
+sa0 N243_2, sa0 N194, sa1 N293
+sa0 N247_2, sa0 N196, sa1 N294
+sa0 N251_2, sa0 N198, sa1 N295
+sa0 N282_1, sa0 N285_1, sa0 ttmp9
+sa0 N260_1, sa0 ttmp9_1, sa0 ttmp10
+sa0 N264_1, sa0 ttmp10_1, sa0 ttmp11
+sa0 N267_1, sa0 ttmp11_1, sa0 ttmp12
+sa0 N270_1, sa0 ttmp12_1, sa0 ttmp13
+sa0 N273_1, sa0 ttmp13_1, sa0 ttmp14
+sa0 N276_1, sa0 ttmp14_1, sa0 ttmp15
+sa0 N279_1, sa0 ttmp15_1, sa0 N296
+sa1 N263, sa0 N263, sa0 N300
+sa1 N263, sa0 N263, sa1 N300
+sa1 N288, sa0 N288, sa0 N301
+sa1 N288, sa0 N288, sa1 N301
+sa1 N289, sa0 N289, sa0 N302
+sa1 N289, sa0 N289, sa1 N302
+sa1 N290, sa0 N290, sa0 N303
+sa1 N290, sa0 N290, sa1 N303
+sa1 N291, sa0 N291, sa0 N304
+sa1 N291, sa0 N291, sa1 N304
+sa1 N292, sa0 N292, sa0 N305
+sa1 N292, sa0 N292, sa1 N305
+sa1 N293, sa0 N293, sa0 N306
+sa1 N293, sa0 N293, sa1 N306
+sa1 N294, sa0 N294, sa0 N307
+sa1 N294, sa0 N294, sa1 N307
+sa1 N295, sa0 N295, sa0 N308
+sa1 N295, sa0 N295, sa1 N308
+sa1 N296_1, sa0 N296_1, sa0 N309
+sa1 N296_1, sa0 N296_1, sa1 N309
+sa1 N296_2, sa0 N296_2, sa0 N319
+sa1 N296_2, sa0 N296_2, sa1 N319
+sa1 N296_3, sa0 N296_3, sa0 N329
+sa1 N296_3, sa0 N296_3, sa1 N329
+sa0 N8_2, sa0 N319_1, sa1 N334
+sa0 N319_2, sa0 N21_2, sa1 N336
+sa0 N319_3, sa0 N34_2, sa1 N338
+sa0 N319_4, sa0 N47_2, sa1 N340
+sa0 N319_5, sa0 N60_2, sa1 N342
+sa0 N319_6, sa0 N73_2, sa1 N344
+sa0 N319_7, sa0 N86_2, sa1 N345
+sa0 N319_8, sa0 N99_2, sa1 N346
+sa0 N319_9, sa0 N112_2, sa1 N347
+sa0 N330, sa0 N300, sa1 N348
+sa0 N331, sa0 N301, sa1 N349
+sa0 N332, sa0 N302, sa1 N350
+sa0 N333, sa0 N303, sa1 N351
+sa0 N335, sa0 N304, sa1 N352
+sa0 N337, sa0 N305, sa1 N353
+sa0 N339, sa0 N306, sa1 N354
+sa0 N341, sa0 N307, sa1 N355
+sa0 N343, sa0 N308, sa1 N356
+sa0 N355, sa0 N356, sa0 ttmp17
+sa0 N348, sa0 ttmp17_1, sa0 ttmp18
+sa0 N349, sa0 ttmp18_1, sa0 ttmp19
+sa0 N350, sa0 ttmp19_1, sa0 ttmp20
+sa0 N351, sa0 ttmp20_1, sa0 ttmp21
+sa0 N352, sa0 ttmp21_1, sa0 ttmp22
+sa0 N353, sa0 ttmp22_1, sa0 ttmp23
+sa0 N354, sa0 ttmp23_1, sa0 N357
+sa1 N357_1, sa0 N357_1, sa0 N360
+sa1 N357_1, sa0 N357_1, sa1 N360
+sa1 N357_2, sa0 N357_2, sa0 N370
+sa1 N357_2, sa0 N357_2, sa1 N370
+sa0 N14_2, sa0 N360_1, sa1 N371
+sa0 N360_2, sa0 N27_2, sa1 N372
+sa0 N360_3, sa0 N40_2, sa1 N373
+sa0 N360_4, sa0 N53_2, sa1 N374
+sa0 N360_5, sa0 N66_2, sa1 N375
+sa0 N360_6, sa0 N79_2, sa1 N376
+sa0 N360_7, sa0 N92_2, sa1 N377
+sa0 N360_8, sa0 N105_2, sa1 N378
+sa0 N360_9, sa0 N115_2, sa1 N379
+sa0 N334, sa0 N371, sa0 ttmp25
+sa0 N4_3, sa0 ttmp25_1, sa0 ttmp26
+sa0 N242, sa0 ttmp26_1, sa1 N380
+sa0 N372, sa0 N17_3, sa0 ttmp28
+sa0 N246, sa0 ttmp28_1, sa0 ttmp29
+sa0 N336, sa0 ttmp29_1, sa1 N381
+sa0 N373, sa0 N30_3, sa0 ttmp31
+sa0 N250, sa0 ttmp31_1, sa0 ttmp32
+sa0 N338, sa0 ttmp32_1, sa1 N386
+sa0 N374, sa0 N43_3, sa0 ttmp34
+sa0 N254, sa0 ttmp34_1, sa0 ttmp35
+sa0 N340, sa0 ttmp35_1, sa1 N393
+sa0 N375, sa0 N56_3, sa0 ttmp37
+sa0 N255, sa0 ttmp37_1, sa0 ttmp38
+sa0 N342, sa0 ttmp38_1, sa1 N399
+sa0 N376, sa0 N69_3, sa0 ttmp40
+sa0 N256, sa0 ttmp40_1, sa0 ttmp41
+sa0 N344, sa0 ttmp41_1, sa1 N404
+sa0 N377, sa0 N82_3, sa0 ttmp43
+sa0 N257, sa0 ttmp43_1, sa0 ttmp44
+sa0 N345, sa0 ttmp44_1, sa1 N407
+sa0 N378, sa0 N95_3, sa0 ttmp46
+sa0 N258, sa0 ttmp46_1, sa0 ttmp47
+sa0 N346, sa0 ttmp47_1, sa1 N411
+sa0 N379, sa0 N108_3, sa0 ttmp49
+sa0 N259, sa0 ttmp49_1, sa0 ttmp50
+sa0 N347, sa0 ttmp50_1, sa1 N414
+sa1 N380, sa0 N380, sa0 N415
+sa1 N380, sa0 N380, sa1 N415
+sa0 N411_1, sa0 N414, sa0 ttmp52
+sa0 N381_1, sa0 ttmp52_1, sa0 ttmp53
+sa0 N386_1, sa0 ttmp53_1, sa0 ttmp54
+sa0 N393_1, sa0 ttmp54_1, sa0 ttmp55
+sa0 N399_1, sa0 ttmp55_1, sa0 ttmp56
+sa0 N404_1, sa0 ttmp56_1, sa0 ttmp57
+sa0 N407_1, sa0 ttmp57_1, sa0 N416
+sa1 N393_2, sa0 N393_2, sa0 N417
+sa1 N393_2, sa0 N393_2, sa1 N417
+sa1 N404_2, sa0 N404_2, sa0 N418
+sa1 N404_2, sa0 N404_2, sa1 N418
+sa1 N407_2, sa0 N407_2, sa0 N419
+sa1 N407_2, sa0 N407_2, sa1 N419
+sa1 N411_2, sa0 N411_2, sa0 N420
+sa1 N411_2, sa0 N411_2, sa1 N420
+sa1 N415, sa1 N416, sa0 N421
+sa0 N386_2, sa0 N417, sa1 N422
+sa0 N418, sa0 N399_2, sa0 ttmp59
+sa0 N386_3, sa0 ttmp59_1, sa0 ttmp60
+sa0 N393_3, sa0 ttmp60_1, sa1 N425
+sa0 N393_4, sa0 N419, sa0 ttmp62
+sa0 N399_3, sa0 ttmp62_1, sa1 N428
+sa0 N407_3, sa0 N420, sa0 ttmp64
+sa0 N386_4, sa0 ttmp64_1, sa0 ttmp65
+sa0 N393_5, sa0 ttmp65_1, sa1 N429
+sa0 N422_1, sa0 N399_4, sa0 ttmp67
+sa0 N381_2, sa0 ttmp67_1, sa0 ttmp68
+sa0 N386_5, sa0 ttmp68_1, sa1 N430
+sa0 N425_1, sa0 N428, sa0 ttmp70
+sa0 N381_3, sa0 ttmp70_1, sa0 ttmp71
+sa0 N386_6, sa0 ttmp71_1, sa1 N431
+sa0 N425_2, sa0 N429, sa0 ttmp73
+sa0 N381_4, sa0 ttmp73_1, sa0 ttmp74
+sa0 N422_2, sa0 ttmp74_1, sa1 N432

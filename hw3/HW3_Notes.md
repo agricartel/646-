@@ -12,7 +12,7 @@ net list: containing each net and the faults it has
 
 
 data structures:
-eGateType: (AND2X1, OR2X1, NAND2X1, NOR2X1, XOR2X1, INVX1, BUFX1, fanout)
+GateType: (AND2X1, OR2X1, NAND2X1, NOR2X1, XOR2X1, INVX1, BUFX1)
 gate_list: <sGate, eGateType, astInputNets, astOutputNets>
 net_list: <sNet, eNetType, asFaults>
 
@@ -49,3 +49,59 @@ make gate_list.nets be variable length
 yeah this is getting done in python, no point in reinventing the wheel in c
 
 Definition of the fanout modules is not in the library file
+
+
+so no fanout definition, we need to see if a net is an input to multiple gates
+
+what does that mean for fault collapsing?
+
+it means that the same wire on 2 gates are separate nets
+
+meaning it gets harder to count the number of faults...
+
+we can count the number of times a net shows up on gate inputs
+
+
+
+equivalent fault list: (array of collapsed, fault that stayed)
+
+
+
+so 
+
+AND2X1  i0,y0     if output is (1,x) then set input faults to (0,x)
+OR2X1   i1,y1     if output is (x,1) then set input faults to (x,0)
+NAND2X1 i0,y1     if output is (x,1) then set input faults to (0,x)
+NOR2X1  i1,y0     if output is (1,x) then set input faults to (x,0)
+XOR2X1  None      do nothing
+INVX1   i0,y1     if output is (x,1) then set input faults to (0,x)
+        i1,y0     if output is (1,x) then set input faults to (x,0)
+BUFX1   i0,y0     if output is (1,x) then set input faults to (0,x)
+        i1,y1     if output is (x,1) then set input faults to (x,0)
+
+
+where are equivalencies in this list?
+Lump in INV with NAND and NOR
+Lump in BUF with AND and OR
+
+
+just make a big switch statement
+
+
+
+(modname)_BF.txt
+"sa1     `netname`"
+"sa0     `netname`"
+
+Total Faults_BF=`num_of_faults`
+
+
+(modname)_AF.txt
+"sa1     `netname`"
+"sa0     `netname`"
+
+Total Faults_AF=`num_of_faults`
+Collapse_ratio=`collapse_ratio`
+
+Equivalent Classes:
+`list of equivalent faults`
