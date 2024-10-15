@@ -171,6 +171,11 @@ class Collapser:
                     f.write(f'{collapsed}, ')
                 f.write(f'{fault.uncollapsed}\n')
 
+    def update_net_list(self, net, fault):
+        sa0 = fault[0]
+        sa1 = fault[1]
+        self.net_list[net] = (sa0, sa1)
+
     def collapse(self):
         for gate in self.gate_list:
             out_net = gate.output
@@ -182,66 +187,74 @@ class Collapser:
                 case GateType.AND2X1:
                     if out_fault[0] == 1:
                         for in_net in in_nets:
-                            sa0 = 0
-                            sa1 = self.net_list[in_net][1]
-                            self.net_list[in_net] = (sa0, sa1)
+                            self.update_net_list(in_net, (0, self.net_list[in_net][1]))
                             collapsed.append(f'sa0 {in_net}')
                             uncollapsed = f'sa0 {out_net}'
+                        self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
+                    elif in_nets[0][0] == 1:
+                        self.update_net_list(in_nets[1], (0, self.net_list[in_nets[0]][1]))
+                        collapsed.append(f'sa0 {in_nets[1]}')
+                        collapsed.append(f'sa0 {out_net}')
+                        uncollapsed = f'sa0 {in_nets[1]}'
                         self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
                 case GateType.OR2X1:
                     if out_fault[1] == 1:
                         for in_net in in_nets:
-                            sa0 = self.net_list[in_net][0]
-                            sa1 = 0
-                            self.net_list[in_net] = (sa0, sa1)
+                            self.update_net_list(in_net, (self.net_list[in_net][0], 0))
                             collapsed.append(f'sa1 {in_net}')
                             uncollapsed = f'sa1 {out_net}'
+                        self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
+                    elif in_nets[0][1] == 1:
+                        self.update_net_list(in_nets[1], (self.net_list[in_nets[0]][0], 0))
+                        collapsed.append(f'sa1 {in_nets[1]}')
+                        collapsed.append(f'sa1 {out_net}')
+                        uncollapsed = f'sa1 {in_nets[1]}'
                         self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
                 case GateType.NAND2X1:
                     if out_fault[1] == 1:
                         for in_net in in_nets:
-                            sa0 = 0
-                            sa1 = self.net_list[in_net][1]
-                            self.net_list[in_net] = (sa0, sa1)
+                            self.update_net_list(in_net, (0, self.net_list[in_net][1]))
                             collapsed.append(f'sa0 {in_net}')
                             uncollapsed = f'sa1 {out_net}'
+                        self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
+                    elif in_nets[0][0] == 1:
+                        self.update_net_list(in_nets[1], (0, self.net_list[in_nets[0]][1]))
+                        collapsed.append(f'sa0 {in_nets[1]}')
+                        collapsed.append(f'sa1 {out_net}')
+                        uncollapsed = f'sa1 {in_nets[1]}'
                         self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
                 case GateType.NOR2X1:
                     if out_fault[0] == 1:
                         for in_net in in_nets:
-                            sa0 = self.net_list[in_net][0]
-                            sa1 = 0
-                            self.net_list[in_net] = (sa0, sa1)
+                            self.update_net_list(in_net, (self.net_list[in_net][0], 0))
                             collapsed.append(f'sa1 {in_net}')
                             uncollapsed = f'sa0 {out_net}'
                         self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
+                    elif in_nets[0][1] == 1:
+                        self.update_net_list(in_nets[1], (self.net_list[in_nets[0]][0], 0))
+                        collapsed.append(f'sa1 {in_nets[1]}')
+                        collapsed.append(f'sa0 {out_net}')
+                        uncollapsed = f'sa0 {in_nets[1]}'
+                        self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
                 case GateType.INVX1:
                     if out_fault[0] == 1:
-                        sa0 = self.net_list[in_nets[0]][0]
-                        sa1 = 0
-                        self.net_list[in_nets[0]] = (sa0, sa1)
+                        self.update_net_list(in_nets[0], (self.net_list[in_nets[0]][0], 0))
                         collapsed.append(f'sa1 {in_nets[0]}')
                         uncollapsed = f'sa0 {out_net}'
                         self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
                     if out_fault[1] == 1:
-                        sa0 = 0
-                        sa1 = self.net_list[in_nets[0]][1]
-                        self.net_list[in_nets[0]] = (sa0, sa1)
+                        self.update_net_list(in_nets[0], (0, self.net_list[in_nets[0]][1]))
                         collapsed.append(f'sa0 {in_nets[0]}')
                         uncollapsed = f'sa1 {out_net}'
                         self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
                 case GateType.BUFX1:
                     if out_fault[0] == 1:
-                        sa0 = 0
-                        sa1 = self.net_list[in_nets[0]][1]
-                        self.net_list[in_nets[0]] = (sa0, sa1)
+                        self.update_net_list(in_nets[0], (0, self.net_list[in_nets[0]][1]))
                         collapsed.append(f'sa0 {in_nets[0]}')
                         uncollapsed = f'sa0 {out_net}'
                         self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
                     if out_fault[1] == 1:
-                        sa0 = self.net_list[in_nets[0]][0]
-                        sa1 = 0
-                        self.net_list[in_nets[0]] = (sa0, sa1)
+                        self.update_net_list(in_nets[0], (self.net_list[in_nets[0]][0], 0))
                         collapsed.append(f'sa1 {in_nets[0]}')
                         uncollapsed = f'sa1 {out_net}'
                         self.equivalent_faults.append(EquivalentFault(collapsed, uncollapsed))
