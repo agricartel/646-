@@ -91,9 +91,9 @@ class Collapser:
                         self.net_count[input] = 1
                     else:
                         self.net_count[input] += 1
-                if output not in self.net_count.keys():
-                    self.net_list[output] = (1, 1)
-                    self.net_count[output] = 1
+                # if output not in self.net_count.keys():
+                #     self.net_list[output] = (1, 1)
+                #     self.net_count[output] = 1
                 self.gate_list.append(Gate(gate_name, GateType[gate_type], 0, inputs, output))
 
         # initialize fanouts
@@ -130,7 +130,7 @@ class Collapser:
         # get outputs of these gates
         outputs = [gate.output for gate in gates]
         self.set_gate_levels(outputs, level + 1)
-        self.gate_list = sorted(self.gate_list, key=lambda x: x.level)
+        self.gate_list = sorted(self.gate_list, key=lambda x: x.level, reverse=True)
 
     def get_fault_count(self):
         count = 0

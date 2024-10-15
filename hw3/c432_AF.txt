@@ -408,62 +408,6 @@ sa1    N422_1
 sa1    N422_2
 sa1    N425_1
 sa1    N425_2
-sa1    ttmp1_1
-sa1    ttmp2_1
-sa1    ttmp3_1
-sa1    ttmp4_1
-sa1    ttmp5_1
-sa1    ttmp6_1
-sa1    ttmp7_1
-sa1    ttmp9_1
-sa1    ttmp10_1
-sa1    ttmp11_1
-sa1    ttmp12_1
-sa1    ttmp13_1
-sa1    ttmp14_1
-sa1    ttmp15_1
-sa1    ttmp17_1
-sa1    ttmp18_1
-sa1    ttmp19_1
-sa1    ttmp20_1
-sa1    ttmp21_1
-sa1    ttmp22_1
-sa1    ttmp23_1
-sa1    ttmp25_1
-sa1    ttmp26_1
-sa1    ttmp28_1
-sa1    ttmp29_1
-sa1    ttmp31_1
-sa1    ttmp32_1
-sa1    ttmp34_1
-sa1    ttmp35_1
-sa1    ttmp37_1
-sa1    ttmp38_1
-sa1    ttmp40_1
-sa1    ttmp41_1
-sa1    ttmp43_1
-sa1    ttmp44_1
-sa1    ttmp46_1
-sa1    ttmp47_1
-sa1    ttmp49_1
-sa1    ttmp50_1
-sa1    ttmp52_1
-sa1    ttmp53_1
-sa1    ttmp54_1
-sa1    ttmp55_1
-sa1    ttmp56_1
-sa1    ttmp57_1
-sa1    ttmp59_1
-sa1    ttmp60_1
-sa1    ttmp62_1
-sa1    ttmp64_1
-sa1    ttmp65_1
-sa1    ttmp67_1
-sa1    ttmp68_1
-sa1    ttmp70_1
-sa1    ttmp71_1
-sa1    ttmp73_1
-sa1    ttmp74_1
 sa0    N1
 sa0    N4
 sa0    N8
@@ -562,62 +506,6 @@ sa0    N421
 sa0    N430
 sa0    N431
 sa0    N432
-sa0    ttmp1
-sa0    ttmp2
-sa0    ttmp3
-sa0    ttmp4
-sa0    ttmp5
-sa0    ttmp6
-sa0    ttmp7
-sa0    ttmp9
-sa0    ttmp10
-sa0    ttmp11
-sa0    ttmp12
-sa0    ttmp13
-sa0    ttmp14
-sa0    ttmp15
-sa0    ttmp17
-sa0    ttmp18
-sa0    ttmp19
-sa0    ttmp20
-sa0    ttmp21
-sa0    ttmp22
-sa0    ttmp23
-sa0    ttmp25
-sa0    ttmp26
-sa0    ttmp28
-sa0    ttmp29
-sa0    ttmp31
-sa0    ttmp32
-sa0    ttmp34
-sa0    ttmp35
-sa0    ttmp37
-sa0    ttmp38
-sa0    ttmp40
-sa0    ttmp41
-sa0    ttmp43
-sa0    ttmp44
-sa0    ttmp46
-sa0    ttmp47
-sa0    ttmp49
-sa0    ttmp50
-sa0    ttmp52
-sa0    ttmp53
-sa0    ttmp54
-sa0    ttmp55
-sa0    ttmp56
-sa0    ttmp57
-sa0    ttmp59
-sa0    ttmp60
-sa0    ttmp62
-sa0    ttmp64
-sa0    ttmp65
-sa0    ttmp67
-sa0    ttmp68
-sa0    ttmp70
-sa0    ttmp71
-sa0    ttmp73
-sa0    ttmp74
 sa0    N8_1
 sa0    N14_1
 sa0    N21_1
@@ -691,8 +579,8 @@ sa0    N309_7
 sa0    N309_8
 sa0    N309_9
 
-Total Faults_AF=692
-Collapse_ratio=0.5766666666666667
+Total Faults_AF=580
+Collapse_ratio=0.5942622950819673
 
 Equivalent Classes:
 sa1 N1_1, sa0 N1_1, sa0 N118
@@ -759,13 +647,13 @@ sa1 N105_1, sa1 N147_2, sa0 N196
 sa1 N112_1, sa1 N151_1, sa0 N197
 sa1 N115_1, sa1 N151_2, sa0 N198
 sa0 N177_1, sa0 N180_1, sa0 ttmp1
-sa0 N154_1, sa0 ttmp1_1, sa0 ttmp2
-sa0 N159_1, sa0 ttmp2_1, sa0 ttmp3
-sa0 N162_1, sa0 ttmp3_1, sa0 ttmp4
-sa0 N165_1, sa0 ttmp4_1, sa0 ttmp5
-sa0 N168_1, sa0 ttmp5_1, sa0 ttmp6
-sa0 N171_1, sa0 ttmp6_1, sa0 ttmp7
-sa0 N174_1, sa0 ttmp7_1, sa0 N199
+sa0 N154_1, sa0 ttmp1, sa0 ttmp2
+sa0 N159_1, sa0 ttmp2, sa0 ttmp3
+sa0 N162_1, sa0 ttmp3, sa0 ttmp4
+sa0 N165_1, sa0 ttmp4, sa0 ttmp5
+sa0 N168_1, sa0 ttmp5, sa0 ttmp6
+sa0 N171_1, sa0 ttmp6, sa0 ttmp7
+sa0 N174_1, sa0 ttmp7, sa0 N199
 sa1 N199_1, sa0 N199_1, sa0 N203
 sa1 N199_1, sa0 N199_1, sa1 N203
 sa1 N199_2, sa0 N199_2, sa0 N213
@@ -800,13 +688,13 @@ sa0 N243_2, sa0 N194, sa1 N293
 sa0 N247_2, sa0 N196, sa1 N294
 sa0 N251_2, sa0 N198, sa1 N295
 sa0 N282_1, sa0 N285_1, sa0 ttmp9
-sa0 N260_1, sa0 ttmp9_1, sa0 ttmp10
-sa0 N264_1, sa0 ttmp10_1, sa0 ttmp11
-sa0 N267_1, sa0 ttmp11_1, sa0 ttmp12
-sa0 N270_1, sa0 ttmp12_1, sa0 ttmp13
-sa0 N273_1, sa0 ttmp13_1, sa0 ttmp14
-sa0 N276_1, sa0 ttmp14_1, sa0 ttmp15
-sa0 N279_1, sa0 ttmp15_1, sa0 N296
+sa0 N260_1, sa0 ttmp9, sa0 ttmp10
+sa0 N264_1, sa0 ttmp10, sa0 ttmp11
+sa0 N267_1, sa0 ttmp11, sa0 ttmp12
+sa0 N270_1, sa0 ttmp12, sa0 ttmp13
+sa0 N273_1, sa0 ttmp13, sa0 ttmp14
+sa0 N276_1, sa0 ttmp14, sa0 ttmp15
+sa0 N279_1, sa0 ttmp15, sa0 N296
 sa1 N263, sa0 N263, sa0 N300
 sa1 N263, sa0 N263, sa1 N300
 sa1 N288, sa0 N288, sa0 N301
@@ -850,13 +738,13 @@ sa0 N339, sa0 N306, sa1 N354
 sa0 N341, sa0 N307, sa1 N355
 sa0 N343, sa0 N308, sa1 N356
 sa0 N355, sa0 N356, sa0 ttmp17
-sa0 N348, sa0 ttmp17_1, sa0 ttmp18
-sa0 N349, sa0 ttmp18_1, sa0 ttmp19
-sa0 N350, sa0 ttmp19_1, sa0 ttmp20
-sa0 N351, sa0 ttmp20_1, sa0 ttmp21
-sa0 N352, sa0 ttmp21_1, sa0 ttmp22
-sa0 N353, sa0 ttmp22_1, sa0 ttmp23
-sa0 N354, sa0 ttmp23_1, sa0 N357
+sa0 N348, sa0 ttmp17, sa0 ttmp18
+sa0 N349, sa0 ttmp18, sa0 ttmp19
+sa0 N350, sa0 ttmp19, sa0 ttmp20
+sa0 N351, sa0 ttmp20, sa0 ttmp21
+sa0 N352, sa0 ttmp21, sa0 ttmp22
+sa0 N353, sa0 ttmp22, sa0 ttmp23
+sa0 N354, sa0 ttmp23, sa0 N357
 sa1 N357_1, sa0 N357_1, sa0 N360
 sa1 N357_1, sa0 N357_1, sa1 N360
 sa1 N357_2, sa0 N357_2, sa0 N370
@@ -871,41 +759,41 @@ sa0 N360_7, sa0 N92_2, sa1 N377
 sa0 N360_8, sa0 N105_2, sa1 N378
 sa0 N360_9, sa0 N115_2, sa1 N379
 sa0 N334, sa0 N371, sa0 ttmp25
-sa0 N4_3, sa0 ttmp25_1, sa0 ttmp26
-sa0 N242, sa0 ttmp26_1, sa1 N380
+sa0 N4_3, sa0 ttmp25, sa0 ttmp26
+sa0 N242, sa0 ttmp26, sa1 N380
 sa0 N372, sa0 N17_3, sa0 ttmp28
-sa0 N246, sa0 ttmp28_1, sa0 ttmp29
-sa0 N336, sa0 ttmp29_1, sa1 N381
+sa0 N246, sa0 ttmp28, sa0 ttmp29
+sa0 N336, sa0 ttmp29, sa1 N381
 sa0 N373, sa0 N30_3, sa0 ttmp31
-sa0 N250, sa0 ttmp31_1, sa0 ttmp32
-sa0 N338, sa0 ttmp32_1, sa1 N386
+sa0 N250, sa0 ttmp31, sa0 ttmp32
+sa0 N338, sa0 ttmp32, sa1 N386
 sa0 N374, sa0 N43_3, sa0 ttmp34
-sa0 N254, sa0 ttmp34_1, sa0 ttmp35
-sa0 N340, sa0 ttmp35_1, sa1 N393
+sa0 N254, sa0 ttmp34, sa0 ttmp35
+sa0 N340, sa0 ttmp35, sa1 N393
 sa0 N375, sa0 N56_3, sa0 ttmp37
-sa0 N255, sa0 ttmp37_1, sa0 ttmp38
-sa0 N342, sa0 ttmp38_1, sa1 N399
+sa0 N255, sa0 ttmp37, sa0 ttmp38
+sa0 N342, sa0 ttmp38, sa1 N399
 sa0 N376, sa0 N69_3, sa0 ttmp40
-sa0 N256, sa0 ttmp40_1, sa0 ttmp41
-sa0 N344, sa0 ttmp41_1, sa1 N404
+sa0 N256, sa0 ttmp40, sa0 ttmp41
+sa0 N344, sa0 ttmp41, sa1 N404
 sa0 N377, sa0 N82_3, sa0 ttmp43
-sa0 N257, sa0 ttmp43_1, sa0 ttmp44
-sa0 N345, sa0 ttmp44_1, sa1 N407
+sa0 N257, sa0 ttmp43, sa0 ttmp44
+sa0 N345, sa0 ttmp44, sa1 N407
 sa0 N378, sa0 N95_3, sa0 ttmp46
-sa0 N258, sa0 ttmp46_1, sa0 ttmp47
-sa0 N346, sa0 ttmp47_1, sa1 N411
+sa0 N258, sa0 ttmp46, sa0 ttmp47
+sa0 N346, sa0 ttmp47, sa1 N411
 sa0 N379, sa0 N108_3, sa0 ttmp49
-sa0 N259, sa0 ttmp49_1, sa0 ttmp50
-sa0 N347, sa0 ttmp50_1, sa1 N414
+sa0 N259, sa0 ttmp49, sa0 ttmp50
+sa0 N347, sa0 ttmp50, sa1 N414
 sa1 N380, sa0 N380, sa0 N415
 sa1 N380, sa0 N380, sa1 N415
 sa0 N411_1, sa0 N414, sa0 ttmp52
-sa0 N381_1, sa0 ttmp52_1, sa0 ttmp53
-sa0 N386_1, sa0 ttmp53_1, sa0 ttmp54
-sa0 N393_1, sa0 ttmp54_1, sa0 ttmp55
-sa0 N399_1, sa0 ttmp55_1, sa0 ttmp56
-sa0 N404_1, sa0 ttmp56_1, sa0 ttmp57
-sa0 N407_1, sa0 ttmp57_1, sa0 N416
+sa0 N381_1, sa0 ttmp52, sa0 ttmp53
+sa0 N386_1, sa0 ttmp53, sa0 ttmp54
+sa0 N393_1, sa0 ttmp54, sa0 ttmp55
+sa0 N399_1, sa0 ttmp55, sa0 ttmp56
+sa0 N404_1, sa0 ttmp56, sa0 ttmp57
+sa0 N407_1, sa0 ttmp57, sa0 N416
 sa1 N393_2, sa0 N393_2, sa0 N417
 sa1 N393_2, sa0 N393_2, sa1 N417
 sa1 N404_2, sa0 N404_2, sa0 N418
@@ -917,19 +805,19 @@ sa1 N411_2, sa0 N411_2, sa1 N420
 sa1 N415, sa1 N416, sa0 N421
 sa0 N386_2, sa0 N417, sa1 N422
 sa0 N418, sa0 N399_2, sa0 ttmp59
-sa0 N386_3, sa0 ttmp59_1, sa0 ttmp60
-sa0 N393_3, sa0 ttmp60_1, sa1 N425
+sa0 N386_3, sa0 ttmp59, sa0 ttmp60
+sa0 N393_3, sa0 ttmp60, sa1 N425
 sa0 N393_4, sa0 N419, sa0 ttmp62
-sa0 N399_3, sa0 ttmp62_1, sa1 N428
+sa0 N399_3, sa0 ttmp62, sa1 N428
 sa0 N407_3, sa0 N420, sa0 ttmp64
-sa0 N386_4, sa0 ttmp64_1, sa0 ttmp65
-sa0 N393_5, sa0 ttmp65_1, sa1 N429
+sa0 N386_4, sa0 ttmp64, sa0 ttmp65
+sa0 N393_5, sa0 ttmp65, sa1 N429
 sa0 N422_1, sa0 N399_4, sa0 ttmp67
-sa0 N381_2, sa0 ttmp67_1, sa0 ttmp68
-sa0 N386_5, sa0 ttmp68_1, sa1 N430
+sa0 N381_2, sa0 ttmp67, sa0 ttmp68
+sa0 N386_5, sa0 ttmp68, sa1 N430
 sa0 N425_1, sa0 N428, sa0 ttmp70
-sa0 N381_3, sa0 ttmp70_1, sa0 ttmp71
-sa0 N386_6, sa0 ttmp71_1, sa1 N431
+sa0 N381_3, sa0 ttmp70, sa0 ttmp71
+sa0 N386_6, sa0 ttmp71, sa1 N431
 sa0 N425_2, sa0 N429, sa0 ttmp73
-sa0 N381_4, sa0 ttmp73_1, sa0 ttmp74
-sa0 N422_2, sa0 ttmp74_1, sa1 N432
+sa0 N381_4, sa0 ttmp73, sa0 ttmp74
+sa0 N422_2, sa0 ttmp74, sa1 N432
