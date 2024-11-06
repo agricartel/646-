@@ -17,4 +17,4 @@ NAND2X1 NAND_4(.Y(rst), .A(l), .B(o2));
 
 INVX1 INV_2(.Y(w), .A(rst));
 
-
+endmodule
