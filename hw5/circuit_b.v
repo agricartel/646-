@@ -3,14 +3,14 @@ input A,B,C;
 output Y,Z;
 wire B1,B2,B3,B4,B5,C1,C2,d,e,f,g,h,k;
 
-assign B1 <= B;
-assign B2 <= B;
-assign B3 <= B;
-assign B4 <= B3;
-assign B5 <= B3;
-assign C1 <= C;
-assign C2 <= C;
-assign h <= g;
+assign B1 = B;
+assign B2 = B;
+assign B3 = B;
+assign B4 = B3;
+assign B5 = B3;
+assign C1 = C;
+assign C2 = C;
+assign h = g;
 
 NAND2X1 NAND_1(.Y(d), .A(A), .B(B1));
 NAND2X1 NAND_2(.Y(e), .A(B2), .B(C1));
