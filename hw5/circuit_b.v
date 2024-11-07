@@ -11,6 +11,7 @@ assign B5 = B3;
 assign C1 = C;
 assign C2 = C;
 assign h = g;
+assign Y = g;
 
 NAND2X1 NAND_1(.Y(d), .A(A), .B(B1));
 NAND2X1 NAND_2(.Y(e), .A(B2), .B(C1));
