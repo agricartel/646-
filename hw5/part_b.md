@@ -1,18 +1,25 @@
 # Part b
 ## Question 1
 Minimal test set:
+```
 {001, 011, 110, 111}
+```
 
 Untestable faults:
+```
 {B1sa1, B2sa1, B4sa1, C2sa1, fsa0, hsa0, ksa1}
+```
 
 Faults covered by each test vector:
+```
 001: [ Bsa1 B3sa1 B5sa1 gsa1 hsa1 Ysa1 Zsa0 ]
 011: [ Asa1 dsa0 ]
 110: [ Csa1 B3sa0 C1sa1 esa0 ]
 111: [ Asa0 Bsa0 Csa0 B1sa0 B2sa0 B4sa0 B5sa0 C1sa0 C2sa0 dsa1 esa1 fsa1 gsa0 ksa0 Ysa0 Zsa1 ]
+```
 
 Test vectors that activate each fault:
+```
 Asa0: [ 111 ]
 Asa1: [ 011 ]
 Bsa0: [ 010 011 110 111 ]
@@ -49,6 +56,7 @@ Ysa0: [ 111 ]
 Ysa1: [ 000 001 010 011 100 101 110 ]
 Zsa0: [ 000 001 100 101 ]
 Zsa1: [ 010 011 110 111 ]
+```
 
 ## Question 2
 Faults detected: 46
