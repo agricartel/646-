@@ -28,7 +28,8 @@ set_patterns -delete
 set_patterns -external ./patterns_v2.stil
 
 set_faults -model stuck
-read_faults ./fault_list_1
+#read_faults ./fault_list_1
+add_faults -all
 
 run_fault_sim
 

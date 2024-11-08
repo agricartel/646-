@@ -1,0 +1,95 @@
+read_netlist ./mylib.v
+ Begin reading netlist ( ./mylib.v )...
+ End parsing Verilog file ./mylib.v with 0 errors.
+ End reading netlist: #modules=45, top=udp_rslat, #lines=1660, CPU_time=0.00 sec, Memory=0MB
+read_netlist ./my-circuit.v
+ Begin reading netlist ( ./my-circuit.v )...
+ End parsing Verilog file ./my-circuit.v with 0 errors.
+ End reading netlist: #modules=1, top=c6288, #lines=2424, CPU_time=0.01 sec, Memory=1MB
+run_build_model c6288
+ ------------------------------------------------------------------------------
+ Begin build model for topcut = c6288 ...
+ ------------------------------------------------------------------------------
+ There were 2128 primitives and 0 faultable pins removed during model optimizations
+ End build model: #primitives=2483, CPU_time=0.00 sec, Memory=1MB
+ ------------------------------------------------------------------------------
+ Begin learning analyses...
+ End learning analyses, total learning CPU time=0.01 sec.
+ ------------------------------------------------------------------------------
+#add_clocks 0 { clk_sig } -shift -timing { 100 50 80 40 }
+#add_scan_chain chain1 scan_data_in scan_data_out
+#add_scan_enables 1 scan_enable
+#add_nofaults -module S_DFFX1
+#add_nofaults -module S_DFFSRX1
+#add_pi_constraint 0 scan_data_in
+#add_pi_constraint 0 scan_enable
+run_drc
+ ------------------------------------------------------------------------------
+ Begin scan design rules checking...
+ ------------------------------------------------------------------------------
+ Begin simulating test protocol procedures...
+ Test protocol simulation completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin scan chain operation checking...
+ Scan chain operation checking completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin nonscan rules checking...
+ Nonscan cell summary: #DFF=0  #DLAT=0  #RAM_outs=0  tla_usage_type=none
+ Nonscan rules checking completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin DRC dependent learning...
+ Fast-sequential depth results: control=0(0), observe=0(0), detect=0(0), CPU time=0.00 sec
+ DRC dependent learning completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ DRC Summary Report
+ ------------------------------------------------------------------------------
+ No violations occurred during DRC process.
+ Design rules checking was successful, total CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+remove_faults -all
+ 0 faults were removed from the fault list.
+set_patterns -delete
+set_patterns  -external ./Fault_Sim.pattern
+ End parsing STIL file ./Fault_Sim.pattern with 0 errors.
+ End reading 30 patterns, CPU_time = 0.00 sec, Memory = 0MB
+set_simulation -measure sim
+run_simulation -override_differences
+ Begin good simulation of 30 external patterns.
+ Simulation completed: #patterns=30, #fail_pats=0(0), #failing_meas=0(0), #rejected_pats=0, CPU time=0.00
+ Existing/added X measures in the external patterns: 0/0
+write_patterns ./patterns_v2.stil -exclude setup -format stil -external -replace
+ Patterns written reference 60 V statements, generating 60 test cycles
+ End writing file 'patterns_v2.stil' with 30 patterns, File_size = 9924, CPU_time = 0.0 sec.
+set_patterns -delete
+ Warning: Current external pattern set is now deleted. (M134)
+set_patterns -external ./patterns_v2.stil
+ End parsing STIL file ./patterns_v2.stil with 0 errors.
+ End reading 30 patterns, CPU_time = 0.00 sec, Memory = 0MB
+set_faults -model stuck
+read_faults ./fault_list_1
+ 7000 faults were read in and 7000 new faults were added to fault list.
+run_fault_sim
+ Simulation performed for 6932 faults on circuit size of 2483 gates.
+ --------------------------------------------
+ #patterns     #faults     test      process
+ simulated  detect/active  coverage  CPU time
+ ---------  -------------  --------  --------
+ 30           6730    202    97.09%      0.01
+ Fault simulation completed: #patterns=30, CPU time=0.01
+report_faults -summary
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT       6730
+ Possibly detected                PT          0
+ Undetectable                     UD         68
+ ATPG untestable                  AU          0
+ Not detected                     ND        202
+ -----------------------------------------------
+ total faults                              7000
+ test coverage                            97.09%
+ -----------------------------------------------
+write_faults ./fault.left -class UD -class PT -class AU -class ND -replace
+ Write faults completed: 202 faults were written into file "./fault.left".
+exit
