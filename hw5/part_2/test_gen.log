@@ -1,0 +1,116 @@
+set WORKDIR [pwd]
+/afs/umbc.edu/users/c/c/c174/home/646
+set LIBFILE ${WORKDIR}/646-FA24/hw5/benchmarks/GSCLib.v
+/afs/umbc.edu/users/c/c/c174/home/646/646-FA24/hw5/benchmarks/GSCLib.v
+#set NETLIST ${WORKDIR}/646-FA24/hw5/circuit_a.v
+set NETLIST ${WORKDIR}/646-FA24/hw5/circuit_b.v
+/afs/umbc.edu/users/c/c/c174/home/646/646-FA24/hw5/circuit_b.v
+#set NETLIST ${WORKDIR}/646-FA24/hw5/benchmarks/c1908_new.v
+#set NETLIST ${WORKDIR}/646-FA24/hw5/benchmarks/c2670_new.v
+#set TOPMODULE circuit_a
+set TOPMODULE circuit_b
+circuit_b
+#set TOPMODULE c1908
+#set TOPMODULE c2670
+read_netlist ${LIBFILE}
+ Begin reading netlist ( /afs/umbc.edu/users/c/c/c174/home/646/646-FA24/hw5/benchmarks/GSCLib.v )...
+ End parsing Verilog file /afs/umbc.edu/users/c/c/c174/home/646/646-FA24/hw5/benchmarks/GSCLib.v with 0 errors.
+ End reading netlist: #modules=46, top=udp_rslat, #lines=1689, CPU_time=0.00 sec, Memory=0MB
+read_netlist ${NETLIST}
+ Begin reading netlist ( /afs/umbc.edu/users/c/c/c174/home/646/646-FA24/hw5/circuit_b.v )...
+ End parsing Verilog file /afs/umbc.edu/users/c/c/c174/home/646/646-FA24/hw5/circuit_b.v with 0 errors.
+ End reading netlist: #modules=1, top=circuit_b, #lines=23, CPU_time=0.00 sec, Memory=0MB
+run_build_model $TOPMODULE
+ ------------------------------------------------------------------------------
+ Begin build model for topcut = circuit_b ...
+ ------------------------------------------------------------------------------
+ There were 13 primitives and 0 faultable pins removed during model optimizations
+ End build model: #primitives=11, CPU_time=0.00 sec, Memory=0MB
+ ------------------------------------------------------------------------------
+ Begin learning analyses...
+ End learning analyses, total learning CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+#add_clocks 0 { clk_sig } -shift -timing { 100 50 80 40 }
+#add_scan_chain chain1 scan_data_in scan_data_out
+#add_scan_enables 1 scan_enable
+#add_nofaults -module S_DFFX1
+#add_nofaults -module S_DFFSRX1
+#add_pi_constraint 0 scan_data_in
+#add_pi_constraint 0 scan_enable
+run_drc
+ ------------------------------------------------------------------------------
+ Begin scan design rules checking...
+ ------------------------------------------------------------------------------
+ Begin simulating test protocol procedures...
+ Test protocol simulation completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin scan chain operation checking...
+ Scan chain operation checking completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin nonscan rules checking...
+ Nonscan cell summary: #DFF=0  #DLAT=0  #RAM_outs=0  tla_usage_type=none
+ Nonscan rules checking completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin DRC dependent learning...
+ Fast-sequential depth results: control=0(0), observe=0(0), detect=0(0), CPU time=0.00 sec
+ DRC dependent learning completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ DRC Summary Report
+ ------------------------------------------------------------------------------
+ No violations occurred during DRC process.
+ Design rules checking was successful, total CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+set_faults -model stuck
+remove_faults -all
+ 0 faults were removed from the fault list.
+add_faults -all
+ 46 faults were added to fault list.
+run_atpg -ndetects  1 
+ ATPG performed for stuck fault model using internal pattern source.
+ ----------------------------------------------------------
+ #patterns     #faults     #ATPG faults  test      process
+ stored     detect/active  red/au/abort  coverage  CPU time
+ ---------  -------------  ------------  --------  --------
+ Begin deterministic ATPG: #uncollapsed_faults=41, abort_limit=10...
+ 4              37      0         4/0/0   100.00%      0.00
+ 
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT         37
+ Possibly detected                PT          0
+ Undetectable                     UD          9
+ ATPG untestable                  AU          0
+ Not detected                     ND          0
+ -----------------------------------------------
+ total faults                                46
+ test coverage                           100.00%
+ -----------------------------------------------
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                           4
+     #basic_scan patterns                     4
+ -----------------------------------------------
+report_faults -summary
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT         37
+ Possibly detected                PT          0
+ Undetectable                     UD          9
+ ATPG untestable                  AU          0
+ Not detected                     ND          0
+ -----------------------------------------------
+ total faults                                46
+ test coverage                           100.00%
+ -----------------------------------------------
+write_patterns  ./ATPG_pattern.pattern -exclude setup -format stil -replace
+ Patterns written reference 8 V statements, generating 8 test cycles
+ End writing file 'ATPG_pattern.pattern' with 4 patterns, File_size = 3722, CPU_time = 0.0 sec.
+write_faults faults_list_1  -uncollapsed -all -replace
+ Write faults completed: 46 faults were written into file "faults_list_1".
+write_faults faults_left -class ND -replace
+ Write faults completed: 0 faults were written into file "faults_left".
+exit
